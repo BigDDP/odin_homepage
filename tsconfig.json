@@ -4,9 +4,12 @@
     "moduleResolution": "bundler",
     "module": "ESNext",
     "jsx": "react-jsx",
-    "jsxImportSource": "react",
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./app/*"]
+    }
   },
   "include": ["app"]
 }
