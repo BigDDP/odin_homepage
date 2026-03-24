@@ -5,10 +5,23 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 export default defineConfig({
+  server: {
+    watch: {
+      usePolling: true,
+      interval: 100,
+    },
+    hmr: true,
+  },
   plugins: [
     tanstackStart({ srcDirectory: "./app" }),
     react(),
     tailwindcss(),
+    {
+      name: "force-full-reload",
+      handleHotUpdate({ server }) {
+        server.ws.send({ type: "full-reload" });
+      },
+    },
   ],
   resolve: {
     alias: {

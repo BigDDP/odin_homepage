@@ -17,7 +17,7 @@ export type Card = {
 };
 
 export const banner: Banner = {
-  imageURL: "https://placehold.co/400x400/7c3aed/ffffff?text=BF",
+  imageURL: "https://placehold.co/400x400/7c3aed/ffffff?text=AW",
   name: "Ashley Williams",
   description: "Full-stack developer passionate about building clean, performant web applications.",
   linkedIn: "https://linkedin.com",
