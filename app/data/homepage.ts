@@ -19,7 +19,7 @@ export type Card = {
 export const banner: Banner = {
   imageURL: "https://placehold.co/400x400/7c3aed/ffffff?text=AW",
   name: "Ashley Williams",
-  description: "Full-stack developer passionate about building clean, performant web applications.",
+  description: `Here's a 250-word blurb about nothing: Nothing is, paradoxically, one of the most fascinating concepts ever conceived by the human mind. It is the absence of something, yet in defining it, we inadvertently make it something. Philosophers have wrestled with nothing for millennia, from the ancient Greeks who struggled to even articulate it, to modern physicists who have discovered that nothing — true, empty, absolute nothing — may not actually exist anywhere in the observable universe. Consider the vacuum of space, long held up as the closest thing to nothing we can point to.`,
   linkedIn: "https://linkedin.com",
   github: "https://github.com",
   twitter: "https://twitter.com",
