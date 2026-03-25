@@ -1,15 +1,10 @@
 {
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
-  "functions": {
-    "dist/server/server.js": {
-      "runtime": "nodejs22.x"
-    }
-  },
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "dist/server/server.js"
+      "source": "/(.*)",
+      "destination": "dist/server/server.js"
     }
   ]
 }
