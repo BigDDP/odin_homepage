@@ -5,10 +5,6 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 export default defineConfig({
-  base: '/odin_homepage/', // must match your repo name exactly
-  build: {
-    outDir: 'dist'
-  },
   server: {
     watch: {
       usePolling: true,
